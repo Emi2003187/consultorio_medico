@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+  <div class="container-fluid">
+    <h1 class="mt-4">Bienvenido al Dashboard, {{ usuario.first_name }}</h1>
+    <p>Rol: {{ rol }}</p>
+  </div>
+{% endblock %}
